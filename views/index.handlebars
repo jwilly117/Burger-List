@@ -1,0 +1,32 @@
+
+<div class="container content">
+
+    <h1> Whats your Favorite Burgers? </h1>
+    <h4> Use this web app to make a list of some delicious burgers and add some to your favorites!</h2>
+    <br>
+    <br>
+
+    <form>
+        <div class="form-group">
+            <input type="text" required placeholder="Add a burger " class="form-control" name="burger_name">
+        </div>
+
+        <button type="submit" id="add" class="btn btn-dark"> Add Burger </button>
+
+    </form>
+    {{!-- > addBurger --}}
+
+    <div class= "content-burger">
+        {{#each burgers}}  
+            <div class="content-burger__list" id={{id}}>
+                <img src="./images/cheeseburger.jpg" alt="">
+                <p>{{burger_name}}</p>
+                <button class="btn btn-dark favorites" data-id="{{id}}" data-state="{{is_favorite}}">
+                    {{#if is_favorite}} Un-Favorite This :( {{else}} Favorite This :D {{/if}}
+                </button>
+            </div>
+            <br>
+        {{/each}}
+    </div>
+
+</div>

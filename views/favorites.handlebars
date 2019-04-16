@@ -1,0 +1,20 @@
+
+
+<div class = "main-favorites">
+    <h2>All your favorite Burgers </h2>
+    <div class="main-favorites__burgers">
+        {{#each burgers}}
+
+        <div class="content-burger__list" id={{id}}>
+            <img src="./images/cheeseburger.jpg" alt="">
+            <p>{{burger_name}} </p>
+            <button class="btn btn-dark favorites" data-id="{{id}}" data-state="{{is_favorite}}">
+                {{#if is_favorite}} Un - Favorite :( {{else}} add to favorites {{/if}}
+            </button>
+        </div>
+
+
+        {{/each}}
+    </div>
+
+</div>

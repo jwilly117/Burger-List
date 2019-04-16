@@ -1,0 +1,48 @@
+
+h1{
+    margin-top:20px;
+    text-align: center;
+    font-weight: Bold;
+}
+
+h4{
+    margin-top:20px;
+    text-align: center;
+
+}
+.content-burger__list{
+    padding: 10px;
+    background: rgb(223, 98, 98);
+    margin-bottom: 20px;
+    border-radius: 10px;
+    align-content: center;
+    font-weight: bolder;
+    width: 500px;
+    margin: auto;
+}
+
+img {
+    max-width: 100px;
+    max-height: 100px;
+    float: left;
+    margin: 10px;
+}
+
+body{
+    background: darkgray;
+}
+
+.form-group{
+    margin: 10px;
+
+}
+
+button{
+    margin: auto;
+}
+
+#add{
+    margin-left: 500px;
+    margin-bottom: 20px;
+}
+
