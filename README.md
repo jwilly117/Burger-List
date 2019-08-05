@@ -14,7 +14,7 @@ The project is made esentially with one page styled using the materialize CSS li
 Input your name and your desired date, usually the users birthday, and then click submit. Then the app will pull information from its two API's about relative articles and events and display them down below in two collumns. Then, if a user desires, you can share an event by clicking the button next to the article. The last 30 shared articles will reflected on the left. 
 
 ### Deployment & Screenshot
-[Link to Deployment](https://sheltered-bastion-73608.herokuapp.com/)
+[Link to Deployment](https://sheltered-bastion-73608.herokuapp.com/)  Might take a second to load from heroku
 
 ![image]( )
 
