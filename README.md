@@ -1,4 +1,4 @@
-# What Had Happened Was (WHHW)
+# Burger Favorites List
 <br>
 
 ### Summary
