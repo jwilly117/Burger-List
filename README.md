@@ -16,7 +16,7 @@ A user can add a burger to the list on the main page, and on the all burgers pag
 ### Deployment & Screenshot
 [Link to Deployment](https://sheltered-bastion-73608.herokuapp.com/)  Might take a second to load from heroku
 
-![image]()
+![image](https://imgur.com/XbtMIbb.png)
 
 ### Future of this project
 UI Improvments. 
