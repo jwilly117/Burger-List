@@ -14,7 +14,7 @@ The page was contructed using handlebars files, instead of .html files. Essentia
 A user can add a burger to the list on the main page, and on the all burgers page, they may add it ot the favorites list. You may also delete the burgers. The whole site is simple and relatively self explanatory. 
 
 ### Deployment & Screenshot
-[Link to Deployment](https://sheltered-bastion-73608.herokuapp.com/)  Might take a second to load from heroku
+[Link to Deployment](https://sheltered-bastion-73608.herokuapp.com/)   ------  Might take a second to load from heroku
 
 ![image](https://imgur.com/XbtMIbb.png)
 
